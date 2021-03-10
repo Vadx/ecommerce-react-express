@@ -8,6 +8,7 @@ import {Button} from "react-bootstrap";
 import {observer} from "mobx-react-lite";
 import Container from "react-bootstrap/Container";
 import {useHistory} from 'react-router-dom'
+
 const NavBar = observer(() => {
     const {user} = useContext(Context)
     const history = useHistory()
